@@ -136,3 +136,7 @@ MEDIA_URL = '/media/'
  
 
 LOGIN_URL = 'rango:login' 
+ 
+  
+#session clearing should happen daily using the cron timer
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
